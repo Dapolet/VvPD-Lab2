@@ -1,0 +1,85 @@
+===== C =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: C | Control: 4560
+===== C++ =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: C++ | Control: 4560
+===== Python =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: Python | Control: 4560
+Words in student_name_en: 2
+===== JavaScript =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: JavaScript | Control: 4560
+Length of student_name_en: 16
+===== TypeScript =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: TypeScript | Control: 4560
+===== Java =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: Java | Control: 4560
+===== C# =====
+
+Welcome to .NET 10.0!
+---------------------
+SDK Version: 10.0.403
+
+Telemetry
+---------
+The .NET tools collect usage data in order to help us improve your experience. It is collected by Microsoft and shared with the community. You can opt-out of telemetry by setting the DOTNET_CLI_TELEMETRY_OPTOUT environment variable to '1' or 'true' using your favorite shell.
+
+Read more about .NET CLI Tools telemetry: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Installed an ASP.NET Core HTTPS development certificate.
+To trust the certificate, run 'dotnet dev-certs https --trust'
+Learn about HTTPS: https://aka.ms/dotnet-https
+
+----------------
+Write your first app: https://aka.ms/dotnet-hello-world
+Find out what's new: https://aka.ms/dotnet-whats-new
+Explore documentation: https://aka.ms/dotnet-docs
+Report issues and find source on GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+An issue was encountered verifying workloads. For more information, run "dotnet workload update".
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: C# | Control: 4560
+===== F# =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: F# | Control: 4560
+Words in student_name_en: 2, total letters: 15
+===== Go =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: Go | Control: 4560
+===== Rust =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: Rust | Control: 4560
+Formatted student_id: М3О-119БВ-26/15
+===== Bash =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: Bash | Control: 4560
+Words:        2, characters:       16
+===== Prolog =====
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: Prolog | Control: 4560
+Members of М3О-119БВ-26: Полетаев Дмитрий; Poletaev Dmitriy; 
+===== Assembler =====
+Собрано: asm/build/assembler (arm64, Apple Clang, Mach-O)
+Hello to 304 from Poletaev Dmitriy, number 15, group М3О-119БВ-26!
+Привет, 304! Это Полетаев Дмитрий, номер 15, группа М3О-119БВ-26!
+Student ID: М3О-119БВ-26/15 | Language: Assembler | Control: 4560
+
+===== ALL LANGUAGES DONE =====
