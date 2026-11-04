@@ -1,3 +1,13 @@
+/*
+ * gettimeofday() is POSIX, not ISO C.  On glibc, -std=c17 defines
+ * __STRICT_ANSI__ and hides it unless _DEFAULT_SOURCE is requested.
+ */
+#ifndef _WIN32
+#  ifndef _DEFAULT_SOURCE
+#    define _DEFAULT_SOURCE
+#  endif
+#endif
+
 #include "timer.h"
 
 #include <stdio.h>
