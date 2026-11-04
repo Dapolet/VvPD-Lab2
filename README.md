@@ -44,6 +44,7 @@ VvPD-Lab2/
 │   ├── c23_binary.c
 │   ├── c23_auto.c
 │   ├── link_error.c
+│   ├── keyword_error.c
 │   └── foreach.cpp
 ├── lab1/
 │   ├── Makefile             # агрегирующий Makefile для ЛР1
@@ -133,13 +134,15 @@ make -C experiments all
 make -C experiments run
 make -C experiments run-io
 make -C experiments run-ub
-make -C experiments link-error   # ожидаемая ошибка линковки
+make -C experiments link-error    # ожидаемая ошибка линковки
+make -C experiments keyword-error # ожидаемая ошибка компилятора
 ```
 
 `run-io` показывает корректный и некорректный ввод `scanf`. `run-ub` запускает
 демонстрации с неопределённым поведением; их вывод — только наблюдение, а не
 переносимый результат. `link-error` специально обращается к `static internal`
-из `device.c` и показывает ошибку компоновки.
+из `device.c` и показывает ошибку компоновки, а `keyword-error` — попытку
+объявить переменную с именем `switch`.
 
 ## Makefile для лабораторной № 1
 

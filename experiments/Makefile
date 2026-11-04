@@ -15,7 +15,7 @@ C_BINS := $(OUT)/types $(OUT)/arrays $(OUT)/arrays_uninit $(OUT)/ascii_arrays \
           $(OUT)/preprocessor_ub $(OUT)/standard_probe
 ALL_BINS := $(C_BINS) $(OUT)/foreach
 
-.PHONY: all run run-io run-ub link-error clean help
+.PHONY: all run run-io run-ub link-error keyword-error clean help
 
 all: $(ALL_BINS)
 
@@ -81,6 +81,10 @@ run-ub: $(OUT)/arrays_uninit $(OUT)/preprocessor_ub
 # This target is expected to FAIL: `internal` has internal linkage in device.c.
 link-error: | $(OUT)
 	-$(CC) $(CFLAGS) link_error.c ../device.c -o $(OUT)/link_error
+
+# This target is expected to FAIL: `switch` is a reserved keyword.
+keyword-error: | $(OUT)
+	-$(CC) $(CFLAGS) keyword_error.c -o $(OUT)/keyword_error
 
 clean:
 	rm -rf $(OUT)

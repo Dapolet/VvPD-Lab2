@@ -59,6 +59,7 @@ VvPD-Lab2/
 │   ├── c23_binary.c
 │   ├── c23_auto.c
 │   ├── link_error.c
+│   ├── keyword_error.c
 │   └── foreach.cpp
 ├── lab1/
 │   ├── Makefile
@@ -285,7 +286,15 @@ exit status = 1
 ### 6.4. Маленькие ловушки
 
 - `switch` и `int` — зарезервированные слова (keywords); объявить переменную
-  с таким именем нельзя.
+  с таким именем нельзя. Компилятор действительно отвергает
+  `int switch = 0;`:
+
+  ```text
+  keyword_error.c:11:9: error: expected identifier or '(' before 'switch'
+     11 |     int switch = 0;
+        |         ^~~~~~
+  ```
+
 - Для hosted-программы используется `int main(void)` или
   `int main(int argc, char *argv[])`; `void main(void)` нестандартен.
 - Во всём проекте используется один стиль фигурных скобок (K&R).
